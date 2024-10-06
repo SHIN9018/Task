@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #result {
+            margin-top: 20px;
+        }
+
+        .news-item { /* 추가된 스타일 */
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+        .news-item a { /* 추가된 스타일 */
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .news-item p { /* 추가된 스타일 */
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h3>News search</h3>
+    <input type="text" id="search">
+    <button id="searchButton">검색</button>
+    <div id="result"></div>
+    <script src="main.js"></script>
+</body>
+</html>
