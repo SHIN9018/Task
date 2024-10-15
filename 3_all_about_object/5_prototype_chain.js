@@ -50,5 +50,5 @@ console.log(IdolModel.prototype.__proto__ === Object.prototype) // ture
  * IdolModel 함수가 this를 통해 프로토타입 객체를 생성함
  * 그 idolModel을 기반으로 new 를 사용해 yujin이 만들어짐 > 프로토타입 객체가 생성
  * 생성된 yujin의 프로토타입은 IdolModel 기반이기에 IdolModel의 프로토타입 객체와
- * 완전동일하다 볼 수 있다
+ * 완전동일하다 볼 수 있다d
  */
